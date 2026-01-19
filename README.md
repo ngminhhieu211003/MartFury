@@ -20,4 +20,4 @@ B3. CHẠY PROJECT GIAO DIỆN
 -	giao diện admin: mở terminal(gui-admin) gõ lệnh chạy: npm start
 -	 
 -	Kết quả : http://localhost:4201/login
--	Tài khoản đăng nhập: admin@gmail.com/123456
+-	Tài khoản đăng nhập: admin@gmail.com/123456 
