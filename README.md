@@ -28,3 +28,24 @@ B3. CHẠY PROJECT GIAO DIỆN
 
 <img width="627" height="299" alt="image" src="https://github.com/user-attachments/assets/808a6e16-9606-4303-9019-888248b867b0" />
 
+<img width="627" height="302" alt="image" src="https://github.com/user-attachments/assets/fdd963c9-b3d6-4f87-9ff9-f7c95d759e6b" />
+
+<img width="627" height="302" alt="image" src="https://github.com/user-attachments/assets/b6fb625b-d89f-45d3-a3ac-315213077875" />
+
+<img width="627" height="301" alt="image" src="https://github.com/user-attachments/assets/c7dd034c-b26e-42c5-af0c-e3e1b93ef296" />
+
+<img width="627" height="302" alt="image" src="https://github.com/user-attachments/assets/ba443e37-7bf2-4e9a-bb0a-bfe9e2fbdd0e" />
+
+<img width="627" height="304" alt="image" src="https://github.com/user-attachments/assets/5ae4a16b-2054-4bc3-b2a5-933787efbf42" />
+
+<img width="627" height="305" alt="image" src="https://github.com/user-attachments/assets/24559ccd-96c8-407f-a7d4-d430f3862a32" />
+
+<img width="627" height="302" alt="image" src="https://github.com/user-attachments/assets/f55263f9-5117-4ba7-adf3-56b3f566dbab" />
+
+
+
+
+
+
+
+
