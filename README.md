@@ -4,14 +4,20 @@ Sinh viên thực hiện: Nguyễn Minh Hiếu - MSSV: 21810310625
 
 
 Công nghệ sử dụng:
+
 Ngôn ngữ: java
+
 backend: spring boot, Spring Data JPA, Spring security
+
 frontend: Angluar, html, css, js
+
 Yêu cầu môi trường : java 17 , nodejs 16
+
 database: MYSQL
 
 
 Hướng dẫn chạy chương trình: 
+
 b1. mở intellij rồi thêm folder backend, vào file application.properties thay username và password sql
 
 b2.  import file sql và chạy
