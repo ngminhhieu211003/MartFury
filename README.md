@@ -1,4 +1,5 @@
 Tên đề tài: Xây dựng hệ thống nhà sách trực tuyến MartFury dựa trên kiến trúc Spring Boot và Angular
+
 Sinh viên thực hiện: Nguyễn Minh Hiếu - MSSV: 21810310625
 
 
@@ -12,7 +13,9 @@ database: MYSQL
 
 Hướng dẫn chạy chương trình: 
 b1. mở intellij rồi thêm folder backend, vào file application.properties thay username và password sql
+
 b2.  import file sql và chạy
+
 B3. CHẠY PROJECT GIAO DIỆN
 -	KiỂM TRA MÔI TRƯỜNG NODE 16 ĐÃ ĐC CÀI ĐẶT trên máy tính chưa(CMD: node -v )
 -	thêm project GUI-Web và GUI-admin vào visual code :
@@ -21,3 +24,7 @@ B3. CHẠY PROJECT GIAO DIỆN
 -	giao diện admin: mở terminal(gui-admin) gõ lệnh chạy: npm start
 -	Kết quả : http://localhost:4201/login
 -	Tài khoản đăng nhập: admin@gmail.com/123456 
+
+
+<img width="627" height="299" alt="image" src="https://github.com/user-attachments/assets/808a6e16-9606-4303-9019-888248b867b0" />
+
