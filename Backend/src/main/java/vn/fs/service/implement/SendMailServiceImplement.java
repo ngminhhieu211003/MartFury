@@ -38,11 +38,11 @@ public class SendMailServiceImplement implements SendMailService {
 		MimeMessage message = sender.createMimeMessage();
 		// Sử dụng Helper để thiết lập các thông tin cần thiết cho message
 		MimeMessageHelper helper = new MimeMessageHelper(message, true, "utf-8");
-		helper.setFrom(mail.getFrom());
+		helper.setFrom("minhhieu21033@gmail.com");
 		helper.setTo(mail.getTo());
 		helper.setSubject(mail.getSubject());
 		helper.setText(mail.getBody(), true);
-		helper.setReplyTo(mail.getFrom());
+		helper.setReplyTo("minhhieu21033@gmail.com");
 
 		if (mail.getAttachments() != null) {
 			FileSystemResource file = new FileSystemResource(new File(mail.getAttachments()));
