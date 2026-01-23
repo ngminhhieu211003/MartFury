@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { AdminModule } from './admin/admin.module';
 import { LoginComponent } from './login/login.component';
 import { LoginModule } from './login/login.module';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { ApiInterceptor } from './core/api.interceptor';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -26,7 +28,13 @@ const routes: Routes = [
     LoginModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: ApiInterceptor,
+      multi: true
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
