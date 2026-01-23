@@ -1,25 +1,21 @@
 # ===== BUILD STAGE =====
 FROM maven:3.9.6-eclipse-temurin-17 AS build
-
 WORKDIR /app
 
-# Copy source code
-COPY . .
-
-# Build jar (bỏ test cho nhanh và tránh lỗi test)
+COPY pom.xml .
+COPY mvnw .
+COPY .mvn .mvn
 RUN chmod +x mvnw
+
+COPY src src
+
 RUN ./mvnw clean package -DskipTests
 
 # ===== RUN STAGE =====
-FROM eclipse-temurin:17-jdk
-
+FROM eclipse-temurin:17-jre
 WORKDIR /app
 
-# Copy jar từ build stage
 COPY --from=build /app/target/*.jar app.jar
 
-# Expose port Spring Boot
 EXPOSE 8080
-
-# Run app
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
