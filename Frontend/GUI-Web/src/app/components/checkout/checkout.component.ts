@@ -109,7 +109,7 @@ export class CheckoutComponent implements OnInit {
         })
         this.discount = this.amount - this.amountReal;
 
-        this.amountPaypal = (this.amount/22727.5);
+        this.amountPaypal = (this.amount/26244.9);
       });
     });
   }
