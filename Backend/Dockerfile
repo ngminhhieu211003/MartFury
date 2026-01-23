@@ -7,6 +7,7 @@ WORKDIR /app
 COPY . .
 
 # Build jar (bỏ test cho nhanh và tránh lỗi test)
+RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 
 # ===== RUN STAGE =====
