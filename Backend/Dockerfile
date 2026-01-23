@@ -1,14 +1,19 @@
 # ===== BUILD STAGE =====
-FROM maven:3.9.6-eclipse-temurin-17 AS build
+FROM eclipse-temurin:17-jdk AS build
 WORKDIR /app
 
-COPY pom.xml .
 COPY mvnw .
 COPY .mvn .mvn
+COPY pom.xml .
+
 RUN chmod +x mvnw
 
-COPY src src
+# 🔥 FIX LỖI RENDER
+ENV MAVEN_CONFIG=""
 
+RUN ./mvnw -B dependency:go-offline
+
+COPY src src
 RUN ./mvnw clean package -DskipTests
 
 # ===== RUN STAGE =====
